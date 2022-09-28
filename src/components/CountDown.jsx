@@ -59,6 +59,7 @@ const CountDown = () => {
           className="bg-gray-200 w-full rounded mt-5 p-2 text-blue-900 font-bold focus:outline-none"
           type="number"
           name="seconds"
+          required
         />
         <button className="p-3 bg-red-500 hover:bg-red-600 w-full rounded text-white font-semibold mt-5">
           Inciar
